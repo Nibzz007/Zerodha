@@ -1,0 +1,709 @@
+.header{
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    height: 67.484px;
+    position: fixed;
+    box-shadow: 2px 1px 2px #eee;
+    z-index: 10;
+}
+.logo{
+    height: 67.484px;
+    width: 432.656px;
+    background-color: white;
+    margin-left: 50px;
+}
+.logo-img{
+    max-height: 17px;
+    top: 18px;
+    width: 129.406px;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 75px;
+    padding-top: 6px;
+    cursor: pointer;
+
+}
+.menu{
+    width: 50%;
+    height: 67px;
+    background-color: white;
+    float:right;
+    position: absolute;
+    right: 124px;
+    top: 0px;
+}
+.list{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 150px;
+    
+}
+body{
+    margin: 0;  
+}
+.nav{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1285px;
+    height: 251px;
+    margin-left: 40px;
+    margin-top: 130px;
+    display: flex;
+}
+.pic{
+    background-color: white;
+    width: 395px;
+    height: 247px;
+    position: relative;
+    margin: auto;
+    margin-top: 1px;
+}
+.img{
+    width: 395px;
+    height: 553px;
+    text-align: center;
+    margin-bottom: 60px;
+    height: 40vh;
+    object-fit: contain;
+}
+.signup{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 184px;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+    color: #666;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+.signup:hover{
+    color: #387ed1;
+}
+.about{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 184px;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+    color: #666;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s;
+    margin-left: 25px;
+}
+.about:hover{
+    color: #387ed1;
+}
+.products{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 184px;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+    color: #666;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s;
+    margin-left: 25px;
+}
+.products:hover{
+    color: #387ed1;
+}
+.pricing{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 184px;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+    color: #666;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s;
+    margin-left: 25px;
+}
+.pricing:hover{
+    color: #387ed1;
+}
+.support{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 184px;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+    color: #666;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s;
+    margin-left: 25px;
+}
+.support:hover{
+    color: #387ed1;
+}
+
+.fa-bars:before{
+    content: "\f0c9";
+    cursor: pointer;
+    margin-left: 25px;
+}
+.invest{
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(66,66,66);
+    text-align: center;
+    line-height: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1{
+    margin-top: 55px;
+    width: 100%;
+    height: 57px;
+}
+.online{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1px;
+}
+.stock{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    font-size: 22px;
+    font-weight: 300!important;
+}
+.sign{
+    height: 58px;
+    margin-top: 10px;
+}
+.block{
+    margin-left: 581px;
+    margin-top: 10px;
+    padding-left: 29px;
+    padding-right: 37px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: transparent;
+    text-align: center;
+    font-size: 19.2px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #387ed1;
+    color:white;
+}
+.block:hover{
+    background-color: black;
+}
+.large{
+    height: 500px;
+    margin-top: 260px;
+}
+.l1{
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.l2{
+    width: 48%;
+    display: inline-block;
+    height: 400px;
+
+    margin-left: 22px;
+    vertical-align: top;
+}
+.award{
+    padding-left: 15px;
+    width: 385px;
+    height: 362px;
+    margin-left: 140px;
+    margin-top: 19px;
+}
+.s1{
+    height: 48px;
+    width: 100%;
+}
+.s2{
+    margin-top: 18px;
+    height: 65px;
+    width: 100%;
+}
+.para{
+    width: 560px;
+    font-size: 20px;
+    color: rgb(66,66,66);
+    font-weight: 400;
+    line-height: 1.8;
+}
+.s3{
+    margin-top: 30px;
+    width: 80%;
+    height: 180px;
+    display: flex;
+}
+.s4{
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+}
+.e1{
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+
+}
+.ul{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    line-height: 2.6;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.ul1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    line-height: 2.6;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.e2{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 32px;
+    line-height: 1.5;
+    margin-top: 0px;
+    font-weight: 500;
+    color: rgb(66,66,66);
+}
+.press{
+    width: 490px;
+    margin-left: 24px;
+    margin-top: 8px
+}
+.press:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.universe{
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+.zero{
+    height: 50px;
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 15px;
+}
+.z{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0;
+    
+}
+.one{
+    height: 70px;
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.o{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(66,66,66);
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5px;
+    line-height: 1.5;
+}
+.kite{
+    height: 450px;
+    width: 80%;
+    margin-left: 140px;
+    display: inline-block;
+}
+.eco-system{
+    width: 100%;
+    cursor: pointer;
+}
+.explore{
+    width: 80%;
+    margin-left: 140px;
+    height: 30px;
+}
+.our{
+    color: #387ed1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+.our:hover{
+    color: black;
+}
+
+.equity{
+    width: 100%;
+    height: 310px;
+    vertical-align: top;
+}
+.money{
+    height: 190px;
+    width: 80%;
+    margin-left: 140px;
+    vertical-align: top;
+    display: flex;
+}
+.price{
+    margin-left: 35px;
+    width: 45%;
+    height: 190px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.price1{
+    margin-left: 35px;
+    width: 45%;
+    height: 190px;
+    display: flex;
+}
+.account{
+    height: 300px;
+    width: 100%;
+}
+.center{
+    width: 900px;
+    height: 175px;
+    margin-left: 222px;
+    margin-top: 25px;
+}
+.footer{
+    background-color: #fafafb;
+    height: 745px;
+    width: 100%;
+}
+.un{
+    height: 50px;
+    margin-bottom: 10px;
+}
+.un1{
+    height: 70px;
+    margin-bottom: 10px;
+}
+.un2{
+    height: 30px; 
+}
+.ze{
+    width: 50%;
+    height: 100%;
+    border: solid;
+    border-color: whitesmoke;
+}
+.twenty{
+    border: solid;
+    border-color: whitesmoke;
+    width: 50%;
+    height: 100%;
+}
+.ro{
+    width: 100%;
+    height: 50%;
+}
+.ro1{
+    width: 100%;
+    height: 50%;
+}
+.tw{
+    width: 100%;
+    height: 50%;
+}
+.twe{
+    width: 100%;
+    height: 50%;
+}
+.h2{
+    font-size: 32px;
+    line-height: 1.5;
+    margin-top: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    font-weight: 500;
+    width: 300px;
+}
+.para{
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    display: block;
+    width: 430px;
+    font-weight: 500;
+}
+.h4{
+     color: #387ed1;
+     font-weight: 500;
+     cursor: pointer;
+     font-size: 18px;
+     line-height: 1.8;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 0;
+}
+.h4:hover{
+   color: black;
+}
+.zero-rupee{
+    line-height: 2;
+    margin: 0;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.free{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.8;
+    padding-top: 16px;
+}
+.varsity{
+    height: 425px;
+    width: 100%;
+    display: flex;
+}
+.new-block{
+
+    margin-left: 120px;
+    width: 1100px;
+    display: flex;
+}
+.sity{
+    margin-left: 120px;
+    height: 330px;
+    width: 430px;
+    margin-right: 140px;
+}
+.sity-block{
+    height: 290px;
+    width: 530px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.ty{
+    max-width: 100%;
+    height: 100%;
+}
+.market{
+    height: 40px;
+    width:100%;
+}
+.new-market{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+.market-block{
+    height: 70px;
+    width: 100%;
+}
+.trading{
+    height: 60px;
+    width: 100%;
+}
+.trading-block{
+    height: 40px;
+    width: 100%;
+}
+.ed{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    margin-top: 0px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.edu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.educ{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#387ed1;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.7;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.educ:hover{
+    color: black;
+}
+.tra{
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,66,66);
+    font-weight: 400;
+}
+.trade{
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:#387ed1;
+    cursor: pointer;
+}
+.trade:hover{
+    color: black;
+}
+.acc{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #424242;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acco{
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blo{
+    margin-top: 20px;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid transparent !important;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 340px;
+    margin-top: 1px;
+}
+.blo:hover{
+    background-color: black;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+}
+.fo{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 25px;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.twentys{
+    width: 240px;
+    height: 300px;
+    margin-right: 40px;
+}
+.twenty-one{
+    width: 68%;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.twenty-two{
+    line-height: 1.8;
+    margin-top: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.8px
+}
+.fa{
+    margin-right: 28px;
+    color: #666;
+}
+.fa:hover{
+    color: #387ED1;
+}
+.twenty-three{
+    vertical-align: top;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twenty-four{
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twenty-four:hover{
+    color: #387ED1;
+}
